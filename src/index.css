@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.tablet-btn {
+  @apply px-6 py-3 rounded-lg text-white font-semibold text-sm sm:text-base transition-all active:scale-95;
+}
+
+.card {
+  @apply bg-white rounded-xl shadow-sm border border-gray-100 p-4 sm:p-6;
+}
+
+.badge {
+  @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium;
+}
